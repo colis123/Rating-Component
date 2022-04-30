@@ -9,6 +9,14 @@
     font-family: 'Overpass', sans-serif;
 }
 
+.white-txt {
+    color: var(--white);
+}
+
+.grey-txt {
+    color: var(--grey);
+}
+
 :root {
     --orange: hsl(25, 97%, 53%);
     --white: hsl(0, 0%, 100%);
@@ -26,6 +34,30 @@ body {
     align-items: center;
     padding: 1rem;
     background-color: var(--very-dark-blue);
+    line-height: 1.5;
 }
 
+.card {
+    padding: 1.25rem 1rem;
+    background-color: var(--dark-blue);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 300px;
+}
+
+.star-wrapper {
+    background-color: var(--medium-grey);
+    width: 32px;
+    border-radius: 50%;
+}
+
+.star {
+    background: url('/images/icon-star.svg') no-repeat center;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: transparent;
+    backdrop-filter: brightness(40%);
+}
 
