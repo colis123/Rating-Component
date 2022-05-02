@@ -2,7 +2,7 @@
 
 
 /* Rest  */
-* {
+*, a {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -38,7 +38,7 @@ body {
 }
 
 .card {
-    padding: 1.25rem 1rem;
+    padding: 1.75rem 1.35rem;
     background-color: var(--dark-blue);
     border-radius: 15px;
     display: flex;
@@ -61,3 +61,43 @@ body {
     backdrop-filter: brightness(40%);
 }
 
+.rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating .number {
+    padding: .5rem 1rem;
+    border-radius: 50%;
+    color: var(--medium-grey);
+    background-color: hsl(213, 19%, 25%);
+    cursor: pointer;
+}
+
+.rating .number a {
+    cursor: pointer;
+}
+
+
+.btn {
+    padding: 1rem;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--orange);
+    color: var(--white);
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+/* Hover events */
+.number:hover {
+    background-color: var(--grey);
+    color: var(--white);
+}
+
+.btn:hover {
+    background-color: var(--white);
+    color: var(--orange);
+}
