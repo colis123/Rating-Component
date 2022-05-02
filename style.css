@@ -72,6 +72,7 @@ body {
     color: var(--medium-grey);
     background-color: hsl(213, 19%, 25%);
     cursor: pointer;
+    transition: all 300ms;
 }
 
 .rating .number a {
@@ -88,6 +89,7 @@ body {
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
+    transition: all 300ms;
 }
 
 
@@ -101,3 +103,5 @@ body {
     background-color: var(--white);
     color: var(--orange);
 }
+
+
